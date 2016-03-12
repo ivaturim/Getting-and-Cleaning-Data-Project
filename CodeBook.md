@@ -21,7 +21,7 @@
     <meta name="viewport" content="width=1020">
     
     
-    <title>coursera-getting-and-cleaning-data-project/README.md at master · bgentry/coursera-getting-and-cleaning-data-project</title>
+    <title>coursera-getting-and-cleaning-data-project/CodeBook.md at master · bgentry/coursera-getting-and-cleaning-data-project</title>
     <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="GitHub">
     <link rel="fluid-icon" href="https://github.com/fluidicon.png" title="GitHub">
     <link rel="apple-touch-icon" href="/apple-touch-icon.png">
@@ -41,7 +41,7 @@
       <meta name="browser-stats-url" content="https://api.github.com/_private/browser/stats">
     <meta name="browser-errors-url" content="https://api.github.com/_private/browser/errors">
     <link rel="assets" href="https://assets-cdn.github.com/">
-    <link rel="web-socket" href="wss://live.github.com/_sockets/NzU1Njg4MzowNDkxMzk0NDZmY2FlN2FhZTg5NmFmZGNhNzI3OTA2MzplMmU1YTQwMzhlMjdmNTNlZTg4ZjA0MWNmMTIyYWJlZmY3Y2VkYjFiMDNjZTk0ZjNjMWEzNDlmMmNlNDU4MjFl--ee6119fe0c4862f4dca6acbaca150a2068367a20">
+    <link rel="web-socket" href="wss://live.github.com/_sockets/NzU1Njg4MzowNDkxMzk0NDZmY2FlN2FhZTg5NmFmZGNhNzI3OTA2MzpmN2NlYjY4YzNmNjNjMmRjY2UyMzJjNGJkZDc1NmQxNmI0MWRlN2Q3YWU3MzU5ODMwNThkZDFiNGZhOWFhYWVm--7d7d640706dc5e4b350cd34a0d42f9ee64ff902b">
     <meta name="pjax-timeout" content="1000">
     <link rel="sudo-modal" href="/sessions/sudo_modal">
 
@@ -53,7 +53,7 @@
 <meta name="google-site-verification" content="ZzhVyEFwb7w3e0-uOTltm8Jsck2F5StVihD0exw2fsA">
     <meta name="google-analytics" content="UA-3769691-2">
 
-<meta content="collector.githubapp.com" name="octolytics-host" /><meta content="github" name="octolytics-app-id" /><meta content="7AA9B0C7:3EEC:1FC66AB:56E3E8B9" name="octolytics-dimension-request_id" /><meta content="7556883" name="octolytics-actor-id" /><meta content="ivaturim" name="octolytics-actor-login" /><meta content="e880c6b0ec7e26fa6be0c5730864b3ffc296d1c25562bcd539c2eec073ef4578" name="octolytics-actor-hash" />
+<meta content="collector.githubapp.com" name="octolytics-host" /><meta content="github" name="octolytics-app-id" /><meta content="7AA9B0C7:3EEC:1FC65D4:56E3E8B9" name="octolytics-dimension-request_id" /><meta content="7556883" name="octolytics-actor-id" /><meta content="ivaturim" name="octolytics-actor-login" /><meta content="e880c6b0ec7e26fa6be0c5730864b3ffc296d1c25562bcd539c2eec073ef4578" name="octolytics-actor-hash" />
 <meta content="/&lt;user-name&gt;/&lt;repo-name&gt;/blob/show" data-pjax-transient="true" name="analytics-location" />
 
 
@@ -66,7 +66,7 @@
     <meta name="user-login" content="ivaturim">
 
         <meta name="expected-hostname" content="github.com">
-      <meta name="js-proxy-site-detection-payload" content="Y2UzNDk2ZmI3NDE2MTZhY2VmMTI1YzgyNGZhNTJhNGMzNTBiZDhhMTY5MmNkZGJjMTY2N2Y1Mjc3NjMxY2VhNHx7InJlbW90ZV9hZGRyZXNzIjoiMTIyLjE2OS4xNzYuMTk5IiwicmVxdWVzdF9pZCI6IjdBQTlCMEM3OjNFRUM6MUZDNjZBQjo1NkUzRThCOSJ9">
+      <meta name="js-proxy-site-detection-payload" content="OWYyZGY5MjMwMWNiMmI3MDAyNjBiZjc0MDI2NGQ3MjNkOTA4NGVlZmU5NTRiYjVhYjI3N2UwMmI1NmVhNmM1Nnx7InJlbW90ZV9hZGRyZXNzIjoiMTIyLjE2OS4xNzYuMTk5IiwicmVxdWVzdF9pZCI6IjdBQTlCMEM3OjNFRUM6MUZDNjVENDo1NkUzRThCOSJ9">
 
       <link rel="mask-icon" href="https://assets-cdn.github.com/pinned-octocat.svg" color="#4078c0">
       <link rel="icon" type="image/x-icon" href="https://assets-cdn.github.com/favicon.ico">
@@ -84,7 +84,7 @@
   <link href="https://github.com/bgentry/coursera-getting-and-cleaning-data-project/commits/master.atom" rel="alternate" title="Recent Commits to coursera-getting-and-cleaning-data-project:master" type="application/atom+xml">
 
 
-      <link rel="canonical" href="https://github.com/bgentry/coursera-getting-and-cleaning-data-project/blob/master/README.md" data-pjax-transient>
+      <link rel="canonical" href="https://github.com/bgentry/coursera-getting-and-cleaning-data-project/blob/master/CodeBook.md" data-pjax-transient>
   </head>
 
 
@@ -222,7 +222,7 @@
             Settings
           </a>
 
-          <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/logout" class="logout-form" data-form-nonce="9dd03d8aa3c1be77ca286f90dd928b5cced56825" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="O+GWlHktcuY87e9+A4vlY43owQswYhaTBbd+PXrwCl8WBxOxNwqb0Ct05li5MZ2+3+BJReQKColc4rlmCb04hA==" /></div>
+          <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/logout" class="logout-form" data-form-nonce="9dd03d8aa3c1be77ca286f90dd928b5cced56825" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="eZ/3BfJrxr69HXdq8e6oLpqtC3qX7x4dNy08hPCFR9unMKrswan3zbfTN5iCgSWKXealNh68rtdZ2pWbCxirbQ==" /></div>
             <button class="dropdown-item dropdown-signout" data-ga-click="Header, sign out, icon:logout">
               Sign out
             </button>
@@ -260,7 +260,7 @@
 <ul class="pagehead-actions">
 
   <li>
-        <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/notifications/subscribe" class="js-social-container" data-autosubmit="true" data-form-nonce="9dd03d8aa3c1be77ca286f90dd928b5cced56825" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="we/SjtOgHIL9+6gusd9qXt0Gu4c0Pfm+PwTNFBTo2P1aSP1Y/K8kWL8UT5T4zah4318Izj9yjWOtd4g+TTSaNg==" /></div>      <input id="repository_id" name="repository_id" type="hidden" value="32694259" />
+        <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/notifications/subscribe" class="js-social-container" data-autosubmit="true" data-form-nonce="9dd03d8aa3c1be77ca286f90dd928b5cced56825" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="s5Dkc76ns1hycLV6ZaeBawK9956nofvRXQB5sL8MNrr+SGhGCF5QEoNfZqZ2g7mGqwWrRmetcEV+MNgfzkVaYg==" /></div>      <input id="repository_id" name="repository_id" type="hidden" value="32694259" />
 
         <div class="select-menu js-menu-container js-select-menu">
           <a href="/bgentry/coursera-getting-and-cleaning-data-project/subscription"
@@ -335,7 +335,7 @@
     
   <div class="js-toggler-container js-social-container starring-container ">
 
-    <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/bgentry/coursera-getting-and-cleaning-data-project/unstar" class="js-toggler-form starred" data-form-nonce="9dd03d8aa3c1be77ca286f90dd928b5cced56825" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="E/ODpnN1Dpb9va1XFP8nuV9hjCQNt5D7IOXrtnmx4M49PSJEzXr1csxhOhIiZuw/ov/nAELcwWkrgcU31Yi5iA==" /></div>
+    <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/bgentry/coursera-getting-and-cleaning-data-project/unstar" class="js-toggler-form starred" data-form-nonce="9dd03d8aa3c1be77ca286f90dd928b5cced56825" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="WCXuKJWB7A167Ean7AIpc7hO7vSDOMG7bd6goBtXrkVrFtjS2xDa1jSTl1DIX2xsVp6HNxLsROsqNHmpMrVPOw==" /></div>
       <button
         class="btn btn-sm btn-with-count js-toggler-target"
         aria-label="Unstar this repository" title="Unstar bgentry/coursera-getting-and-cleaning-data-project"
@@ -347,7 +347,7 @@
           2
         </a>
 </form>
-    <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/bgentry/coursera-getting-and-cleaning-data-project/star" class="js-toggler-form unstarred" data-form-nonce="9dd03d8aa3c1be77ca286f90dd928b5cced56825" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="JqTwd6MCbn9zzCZoJRf9EcM4SZr4kr/rkPXUtbhkSFXuGAs32STqeFZ8uCBMS4xST4dys4HfjjQRxN7E5MLSOw==" /></div>
+    <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/bgentry/coursera-getting-and-cleaning-data-project/star" class="js-toggler-form unstarred" data-form-nonce="9dd03d8aa3c1be77ca286f90dd928b5cced56825" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="WiIK+O1/lHu44Dbvh0ZLP4iYKi8RovH2wMMC4YHKzEdIrjXWV0d3TZXJtTlXgPDulICxyrNf6KlhFm4uZbIqQg==" /></div>
       <button
         class="btn btn-sm btn-with-count js-toggler-target"
         aria-label="Star this repository" title="Star bgentry/coursera-getting-and-cleaning-data-project"
@@ -363,7 +363,7 @@
   </li>
 
   <li>
-          <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/bgentry/coursera-getting-and-cleaning-data-project/fork" class="btn-with-count" data-form-nonce="9dd03d8aa3c1be77ca286f90dd928b5cced56825" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="W3ObyeEt4ODpbd+dbISVuasVkgl/wYxqdd0RYLZ23I6kAYegJt2mjx7K5BpPHPo4tMCVAKFIjEV2fNwyRyG4bQ==" /></div>
+          <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/bgentry/coursera-getting-and-cleaning-data-project/fork" class="btn-with-count" data-form-nonce="9dd03d8aa3c1be77ca286f90dd928b5cced56825" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="kKneRxBYVRTxANuMjd8KiuzG7bwWj5Oo6+1M4j/1xGHttdVG0iBB9UQJDyU0qbp5HKFNxsmdx/pgUxvLsGkdOA==" /></div>
             <button
                 type="submit"
                 class="btn btn-sm btn-with-count"
@@ -447,9 +447,9 @@
 
     
 
-<a href="/bgentry/coursera-getting-and-cleaning-data-project/blob/f970ecbd764eaec92c220d8b28c55b44941fa2a6/README.md" class="hidden js-permalink-shortcut" data-hotkey="y">Permalink</a>
+<a href="/bgentry/coursera-getting-and-cleaning-data-project/blob/f970ecbd764eaec92c220d8b28c55b44941fa2a6/CodeBook.md" class="hidden js-permalink-shortcut" data-hotkey="y">Permalink</a>
 
-<!-- blob contrib key: blob_contributors:v21:83b646c1c181b4d2dacc7eed0bdf0129 -->
+<!-- blob contrib key: blob_contributors:v21:d7bfc3b1e1294b02b7eda99aff5affa9 -->
 
 <div class="file-navigation js-zeroclipboard-container">
   
@@ -491,7 +491,7 @@
 
 
             <a class="select-menu-item js-navigation-item js-navigation-open selected"
-               href="/bgentry/coursera-getting-and-cleaning-data-project/blob/master/README.md"
+               href="/bgentry/coursera-getting-and-cleaning-data-project/blob/master/CodeBook.md"
                data-name="master"
                data-skip-pjax="true"
                rel="nofollow">
@@ -528,29 +528,29 @@
     <button aria-label="Copy file path to clipboard" class="js-zeroclipboard btn btn-sm zeroclipboard-button tooltipped tooltipped-s" data-copied-hint="Copied!" type="button">Copy path</button>
   </div>
   <div class="breadcrumb js-zeroclipboard-target">
-    <span class="repo-root js-repo-root"><span class="js-path-segment"><a href="/bgentry/coursera-getting-and-cleaning-data-project"><span>coursera-getting-and-cleaning-data-project</span></a></span></span><span class="separator">/</span><strong class="final-path">README.md</strong>
+    <span class="repo-root js-repo-root"><span class="js-path-segment"><a href="/bgentry/coursera-getting-and-cleaning-data-project"><span>coursera-getting-and-cleaning-data-project</span></a></span></span><span class="separator">/</span><strong class="final-path">CodeBook.md</strong>
   </div>
 </div>
 
 
   <div class="commit-tease">
       <span class="right">
-        <a class="commit-tease-sha" href="/bgentry/coursera-getting-and-cleaning-data-project/commit/66448ffae6f9ab9dbb1c7cf6ae333c00011429a0" data-pjax>
-          66448ff
+        <a class="commit-tease-sha" href="/bgentry/coursera-getting-and-cleaning-data-project/commit/f970ecbd764eaec92c220d8b28c55b44941fa2a6" data-pjax>
+          f970ecb
         </a>
-        <time datetime="2015-03-22T20:36:36Z" is="relative-time">Mar 22, 2015</time>
+        <time datetime="2015-03-22T20:36:43Z" is="relative-time">Mar 22, 2015</time>
       </span>
       <div>
         <img alt="@bgentry" class="avatar" height="20" src="https://avatars2.githubusercontent.com/u/114033?v=3&amp;s=40" width="20" />
         <a href="/bgentry" class="user-mention" rel="author">bgentry</a>
-          <a href="/bgentry/coursera-getting-and-cleaning-data-project/commit/66448ffae6f9ab9dbb1c7cf6ae333c00011429a0" class="message" data-pjax="true" title="add readme">add readme</a>
+          <a href="/bgentry/coursera-getting-and-cleaning-data-project/commit/f970ecbd764eaec92c220d8b28c55b44941fa2a6" class="message" data-pjax="true" title="add code book">add code book</a>
       </div>
 
     <div class="commit-tease-contributors">
-      <button type="button" class="btn-link muted-link contributors-toggle" data-facebox="#blob_contributors_box">
+      <a class="muted-link contributors-toggle" href="#blob_contributors_box" rel="facebox">
         <strong>1</strong>
          contributor
-      </button>
+      </a>
       
     </div>
 
@@ -570,24 +570,24 @@
   <div class="file-actions">
 
     <div class="btn-group">
-      <a href="/bgentry/coursera-getting-and-cleaning-data-project/raw/master/README.md" class="btn btn-sm " id="raw-url">Raw</a>
-        <a href="/bgentry/coursera-getting-and-cleaning-data-project/blame/master/README.md" class="btn btn-sm js-update-url-with-hash">Blame</a>
-      <a href="/bgentry/coursera-getting-and-cleaning-data-project/commits/master/README.md" class="btn btn-sm " rel="nofollow">History</a>
+      <a href="/bgentry/coursera-getting-and-cleaning-data-project/raw/master/CodeBook.md" class="btn btn-sm " id="raw-url">Raw</a>
+        <a href="/bgentry/coursera-getting-and-cleaning-data-project/blame/master/CodeBook.md" class="btn btn-sm js-update-url-with-hash">Blame</a>
+      <a href="/bgentry/coursera-getting-and-cleaning-data-project/commits/master/CodeBook.md" class="btn btn-sm " rel="nofollow">History</a>
     </div>
 
         <a class="btn-octicon tooltipped tooltipped-nw"
-           href="github-windows://openRepo/https://github.com/bgentry/coursera-getting-and-cleaning-data-project?branch=master&amp;filepath=README.md"
+           href="github-windows://openRepo/https://github.com/bgentry/coursera-getting-and-cleaning-data-project?branch=master&amp;filepath=CodeBook.md"
            aria-label="Open this file in GitHub Desktop"
            data-ga-click="Repository, open with desktop, type:windows">
             <svg aria-hidden="true" class="octicon octicon-device-desktop" height="16" role="img" version="1.1" viewBox="0 0 16 16" width="16"><path d="M15 2H1c-0.55 0-1 0.45-1 1v9c0 0.55 0.45 1 1 1h5.34c-0.25 0.61-0.86 1.39-2.34 2h8c-1.48-0.61-2.09-1.39-2.34-2h5.34c0.55 0 1-0.45 1-1V3c0-0.55-0.45-1-1-1z m0 9H1V3h14v8z"></path></svg>
         </a>
 
-        <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/bgentry/coursera-getting-and-cleaning-data-project/edit/master/README.md" class="inline-form js-update-url-with-hash" data-form-nonce="9dd03d8aa3c1be77ca286f90dd928b5cced56825" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="jRe7wojORt66NFukeORxCuqwFO9+75KX7oRdsh7pjuQLDFeNpp64pz+29tbbMUPTouT5QSXLtuAEqM5PGekmaQ==" /></div>
+        <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/bgentry/coursera-getting-and-cleaning-data-project/edit/master/CodeBook.md" class="inline-form js-update-url-with-hash" data-form-nonce="9dd03d8aa3c1be77ca286f90dd928b5cced56825" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="8EPr+Dj0Tq4g1GIi/TkaqljLcvI4FRdEnsy9bpFmACjGtoF+dZQIASOdDYfrDvmwb/usBCOmTjB8Ynb1ADaS3w==" /></div>
           <button class="btn-octicon tooltipped tooltipped-nw" type="submit"
             aria-label="Fork this project and edit the file" data-hotkey="e" data-disable-with>
             <svg aria-hidden="true" class="octicon octicon-pencil" height="16" role="img" version="1.1" viewBox="0 0 14 16" width="14"><path d="M0 12v3h3l8-8-3-3L0 12z m3 2H1V12h1v1h1v1z m10.3-9.3l-1.3 1.3-3-3 1.3-1.3c0.39-0.39 1.02-0.39 1.41 0l1.59 1.59c0.39 0.39 0.39 1.02 0 1.41z"></path></svg>
           </button>
-</form>        <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/bgentry/coursera-getting-and-cleaning-data-project/delete/master/README.md" class="inline-form" data-form-nonce="9dd03d8aa3c1be77ca286f90dd928b5cced56825" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="TrBlG9NJzBZmYjui6MRuN0RwX+oKPpSj94qHk2lhG3ssdKBlSC8X+Tg6fHZ4D3uN3rDGiQ09HaAzqNyeTNCnsQ==" /></div>
+</form>        <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/bgentry/coursera-getting-and-cleaning-data-project/delete/master/CodeBook.md" class="inline-form" data-form-nonce="9dd03d8aa3c1be77ca286f90dd928b5cced56825" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="3dDk5VBrlcBOk6ieRnloqIAglT4QDFCqwdQAhpDgDfFtlb2LmwiFWFEDFCuDVtiJml5XLScxgQ7OiJyglDpncA==" /></div>
           <button class="btn-octicon btn-octicon-danger tooltipped tooltipped-nw" type="submit"
             aria-label="Fork this project and delete the file" data-disable-with>
             <svg aria-hidden="true" class="octicon octicon-trashcan" height="16" role="img" version="1.1" viewBox="0 0 12 16" width="12"><path d="M10 2H8c0-0.55-0.45-1-1-1H4c-0.55 0-1 0.45-1 1H1c-0.55 0-1 0.45-1 1v1c0 0.55 0.45 1 1 1v9c0 0.55 0.45 1 1 1h7c0.55 0 1-0.45 1-1V5c0.55 0 1-0.45 1-1v-1c0-0.55-0.45-1-1-1z m-1 12H2V5h1v8h1V5h1v8h1V5h1v8h1V5h1v9z m1-10H1v-1h9v1z"></path></svg>
@@ -595,33 +595,119 @@
 </form>  </div>
 
   <div class="file-info">
-      18 lines (14 sloc)
+      100 lines (92 sloc)
       <span class="file-info-divider"></span>
-    776 Bytes
+    2.34 KB
   </div>
 </div>
 
   
   <div id="readme" class="readme blob instapaper_body">
-    <article class="markdown-body entry-content" itemprop="text"><h1><a id="user-content-getting-and-cleaning-data---course-project" class="anchor" href="#getting-and-cleaning-data---course-project" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" role="img" version="1.1" viewBox="0 0 16 16" width="16"><path d="M4 9h1v1h-1c-1.5 0-3-1.69-3-3.5s1.55-3.5 3-3.5h4c1.45 0 3 1.69 3 3.5 0 1.41-0.91 2.72-2 3.25v-1.16c0.58-0.45 1-1.27 1-2.09 0-1.28-1.02-2.5-2-2.5H4c-0.98 0-2 1.22-2 2.5s1 2.5 2 2.5z m9-3h-1v1h1c1 0 2 1.22 2 2.5s-1.02 2.5-2 2.5H9c-0.98 0-2-1.22-2-2.5 0-0.83 0.42-1.64 1-2.09v-1.16c-1.09 0.53-2 1.84-2 3.25 0 1.81 1.55 3.5 3 3.5h4c1.45 0 3-1.69 3-3.5s-1.5-3.5-3-3.5z"></path></svg></a>Getting and Cleaning Data - Course Project</h1>
+    <article class="markdown-body entry-content" itemprop="text"><h1><a id="user-content-code-book" class="anchor" href="#code-book" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" role="img" version="1.1" viewBox="0 0 16 16" width="16"><path d="M4 9h1v1h-1c-1.5 0-3-1.69-3-3.5s1.55-3.5 3-3.5h4c1.45 0 3 1.69 3 3.5 0 1.41-0.91 2.72-2 3.25v-1.16c0.58-0.45 1-1.27 1-2.09 0-1.28-1.02-2.5-2-2.5H4c-0.98 0-2 1.22-2 2.5s1 2.5 2 2.5z m9-3h-1v1h1c1 0 2 1.22 2 2.5s-1.02 2.5-2 2.5H9c-0.98 0-2-1.22-2-2.5 0-0.83 0.42-1.64 1-2.09v-1.16c-1.09 0.53-2 1.84-2 3.25 0 1.81 1.55 3.5 3 3.5h4c1.45 0 3-1.69 3-3.5s-1.5-3.5-3-3.5z"></path></svg></a>Code Book</h1>
 
-<p>This is the course project for the Getting and Cleaning Data Coursera course.
-The R script, <code>run_analysis.R</code>, does the following:</p>
+<p>This code book summarizes the resulting data fields in <code>tidy.txt</code>.</p>
 
-<ol>
-<li>Download the dataset if it does not already exist in the working directory</li>
-<li>Load the activity and feature info</li>
-<li>Loads both the training and test datasets, keeping only those columns which
-reflect a mean or standard deviation</li>
-<li>Loads the activity and subject data for each dataset, and merges those
-columns with the dataset</li>
-<li>Merges the two datasets</li>
-<li>Converts the <code>activity</code> and <code>subject</code> columns into factors</li>
-<li>Creates a tidy dataset that consists of the average (mean) value of each
-variable for each subject and activity pair.</li>
-</ol>
+<h2><a id="user-content-identifiers" class="anchor" href="#identifiers" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" role="img" version="1.1" viewBox="0 0 16 16" width="16"><path d="M4 9h1v1h-1c-1.5 0-3-1.69-3-3.5s1.55-3.5 3-3.5h4c1.45 0 3 1.69 3 3.5 0 1.41-0.91 2.72-2 3.25v-1.16c0.58-0.45 1-1.27 1-2.09 0-1.28-1.02-2.5-2-2.5H4c-0.98 0-2 1.22-2 2.5s1 2.5 2 2.5z m9-3h-1v1h1c1 0 2 1.22 2 2.5s-1.02 2.5-2 2.5H9c-0.98 0-2-1.22-2-2.5 0-0.83 0.42-1.64 1-2.09v-1.16c-1.09 0.53-2 1.84-2 3.25 0 1.81 1.55 3.5 3 3.5h4c1.45 0 3-1.69 3-3.5s-1.5-3.5-3-3.5z"></path></svg></a>Identifiers</h2>
 
-<p>The end result is shown in the file <code>tidy.txt</code>.</p>
+<ul>
+<li><code>subject</code> - The ID of the test subject</li>
+<li><code>activity</code> - The type of activity performed when the corresponding measurements were taken</li>
+</ul>
+
+<h2><a id="user-content-measurements" class="anchor" href="#measurements" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" role="img" version="1.1" viewBox="0 0 16 16" width="16"><path d="M4 9h1v1h-1c-1.5 0-3-1.69-3-3.5s1.55-3.5 3-3.5h4c1.45 0 3 1.69 3 3.5 0 1.41-0.91 2.72-2 3.25v-1.16c0.58-0.45 1-1.27 1-2.09 0-1.28-1.02-2.5-2-2.5H4c-0.98 0-2 1.22-2 2.5s1 2.5 2 2.5z m9-3h-1v1h1c1 0 2 1.22 2 2.5s-1.02 2.5-2 2.5H9c-0.98 0-2-1.22-2-2.5 0-0.83 0.42-1.64 1-2.09v-1.16c-1.09 0.53-2 1.84-2 3.25 0 1.81 1.55 3.5 3 3.5h4c1.45 0 3-1.69 3-3.5s-1.5-3.5-3-3.5z"></path></svg></a>Measurements</h2>
+
+<ul>
+<li><code>tBodyAccMeanX</code></li>
+<li><code>tBodyAccMeanY</code></li>
+<li><code>tBodyAccMeanZ</code></li>
+<li><code>tBodyAccStdX</code></li>
+<li><code>tBodyAccStdY</code></li>
+<li><code>tBodyAccStdZ</code></li>
+<li><code>tGravityAccMeanX</code></li>
+<li><code>tGravityAccMeanY</code></li>
+<li><code>tGravityAccMeanZ</code></li>
+<li><code>tGravityAccStdX</code></li>
+<li><code>tGravityAccStdY</code></li>
+<li><code>tGravityAccStdZ</code></li>
+<li><code>tBodyAccJerkMeanX</code></li>
+<li><code>tBodyAccJerkMeanY</code></li>
+<li><code>tBodyAccJerkMeanZ</code></li>
+<li><code>tBodyAccJerkStdX</code></li>
+<li><code>tBodyAccJerkStdY</code></li>
+<li><code>tBodyAccJerkStdZ</code></li>
+<li><code>tBodyGyroMeanX</code></li>
+<li><code>tBodyGyroMeanY</code></li>
+<li><code>tBodyGyroMeanZ</code></li>
+<li><code>tBodyGyroStdX</code></li>
+<li><code>tBodyGyroStdY</code></li>
+<li><code>tBodyGyroStdZ</code></li>
+<li><code>tBodyGyroJerkMeanX</code></li>
+<li><code>tBodyGyroJerkMeanY</code></li>
+<li><code>tBodyGyroJerkMeanZ</code></li>
+<li><code>tBodyGyroJerkStdX</code></li>
+<li><code>tBodyGyroJerkStdY</code></li>
+<li><code>tBodyGyroJerkStdZ</code></li>
+<li><code>tBodyAccMagMean</code></li>
+<li><code>tBodyAccMagStd</code></li>
+<li><code>tGravityAccMagMean</code></li>
+<li><code>tGravityAccMagStd</code></li>
+<li><code>tBodyAccJerkMagMean</code></li>
+<li><code>tBodyAccJerkMagStd</code></li>
+<li><code>tBodyGyroMagMean</code></li>
+<li><code>tBodyGyroMagStd</code></li>
+<li><code>tBodyGyroJerkMagMean</code></li>
+<li><code>tBodyGyroJerkMagStd</code></li>
+<li><code>fBodyAccMeanX</code></li>
+<li><code>fBodyAccMeanY</code></li>
+<li><code>fBodyAccMeanZ</code></li>
+<li><code>fBodyAccStdX</code></li>
+<li><code>fBodyAccStdY</code></li>
+<li><code>fBodyAccStdZ</code></li>
+<li><code>fBodyAccMeanFreqX</code></li>
+<li><code>fBodyAccMeanFreqY</code></li>
+<li><code>fBodyAccMeanFreqZ</code></li>
+<li><code>fBodyAccJerkMeanX</code></li>
+<li><code>fBodyAccJerkMeanY</code></li>
+<li><code>fBodyAccJerkMeanZ</code></li>
+<li><code>fBodyAccJerkStdX</code></li>
+<li><code>fBodyAccJerkStdY</code></li>
+<li><code>fBodyAccJerkStdZ</code></li>
+<li><code>fBodyAccJerkMeanFreqX</code></li>
+<li><code>fBodyAccJerkMeanFreqY</code></li>
+<li><code>fBodyAccJerkMeanFreqZ</code></li>
+<li><code>fBodyGyroMeanX</code></li>
+<li><code>fBodyGyroMeanY</code></li>
+<li><code>fBodyGyroMeanZ</code></li>
+<li><code>fBodyGyroStdX</code></li>
+<li><code>fBodyGyroStdY</code></li>
+<li><code>fBodyGyroStdZ</code></li>
+<li><code>fBodyGyroMeanFreqX</code></li>
+<li><code>fBodyGyroMeanFreqY</code></li>
+<li><code>fBodyGyroMeanFreqZ</code></li>
+<li><code>fBodyAccMagMean</code></li>
+<li><code>fBodyAccMagStd</code></li>
+<li><code>fBodyAccMagMeanFreq</code></li>
+<li><code>fBodyBodyAccJerkMagMean</code></li>
+<li><code>fBodyBodyAccJerkMagStd</code></li>
+<li><code>fBodyBodyAccJerkMagMeanFreq</code></li>
+<li><code>fBodyBodyGyroMagMean</code></li>
+<li><code>fBodyBodyGyroMagStd</code></li>
+<li><code>fBodyBodyGyroMagMeanFreq</code></li>
+<li><code>fBodyBodyGyroJerkMagMean</code></li>
+<li><code>fBodyBodyGyroJerkMagStd</code></li>
+<li><code>fBodyBodyGyroJerkMagMeanFreq</code></li>
+</ul>
+
+<h2><a id="user-content-activity-labels" class="anchor" href="#activity-labels" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" role="img" version="1.1" viewBox="0 0 16 16" width="16"><path d="M4 9h1v1h-1c-1.5 0-3-1.69-3-3.5s1.55-3.5 3-3.5h4c1.45 0 3 1.69 3 3.5 0 1.41-0.91 2.72-2 3.25v-1.16c0.58-0.45 1-1.27 1-2.09 0-1.28-1.02-2.5-2-2.5H4c-0.98 0-2 1.22-2 2.5s1 2.5 2 2.5z m9-3h-1v1h1c1 0 2 1.22 2 2.5s-1.02 2.5-2 2.5H9c-0.98 0-2-1.22-2-2.5 0-0.83 0.42-1.64 1-2.09v-1.16c-1.09 0.53-2 1.84-2 3.25 0 1.81 1.55 3.5 3 3.5h4c1.45 0 3-1.69 3-3.5s-1.5-3.5-3-3.5z"></path></svg></a>Activity Labels</h2>
+
+<ul>
+<li><code>WALKING</code> (value <code>1</code>): subject was walking during the test</li>
+<li><code>WALKING_UPSTAIRS</code> (value <code>2</code>): subject was walking up a staircase during the test</li>
+<li><code>WALKING_DOWNSTAIRS</code> (value <code>3</code>): subject was walking down a staircase during the test</li>
+<li><code>SITTING</code> (value <code>4</code>): subject was sitting during the test</li>
+<li><code>STANDING</code> (value <code>5</code>): subject was standing during the test</li>
+<li><code>LAYING</code> (value <code>6</code>): subject was laying down during the test</li>
+</ul>
 </article>
   </div>
 
@@ -661,7 +747,7 @@ variable for each subject and activity pair.</li>
       <svg aria-hidden="true" class="octicon octicon-mark-github" height="24" role="img" title="GitHub " version="1.1" viewBox="0 0 16 16" width="24"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59 0.4 0.07 0.55-0.17 0.55-0.38 0-0.19-0.01-0.82-0.01-1.49-2.01 0.37-2.53-0.49-2.69-0.94-0.09-0.23-0.48-0.94-0.82-1.13-0.28-0.15-0.68-0.52-0.01-0.53 0.63-0.01 1.08 0.58 1.23 0.82 0.72 1.21 1.87 0.87 2.33 0.66 0.07-0.52 0.28-0.87 0.51-1.07-1.78-0.2-3.64-0.89-3.64-3.95 0-0.87 0.31-1.59 0.82-2.15-0.08-0.2-0.36-1.02 0.08-2.12 0 0 0.67-0.21 2.2 0.82 0.64-0.18 1.32-0.27 2-0.27 0.68 0 1.36 0.09 2 0.27 1.53-1.04 2.2-0.82 2.2-0.82 0.44 1.1 0.16 1.92 0.08 2.12 0.51 0.56 0.82 1.27 0.82 2.15 0 3.07-1.87 3.75-3.65 3.95 0.29 0.25 0.54 0.73 0.54 1.48 0 1.07-0.01 1.93-0.01 2.2 0 0.21 0.15 0.46 0.55 0.38C13.71 14.53 16 11.53 16 8 16 3.58 12.42 0 8 0z"></path></svg>
 </a>
     <ul class="site-footer-links">
-      <li>&copy; 2016 <span title="0.08729s from github-fe130-cp1-prd.iad.github.net">GitHub</span>, Inc.</li>
+      <li>&copy; 2016 <span title="0.11550s from github-fe131-cp1-prd.iad.github.net">GitHub</span>, Inc.</li>
         <li><a href="https://github.com/site/terms" data-ga-click="Footer, go to terms, text:terms">Terms</a></li>
         <li><a href="https://github.com/site/privacy" data-ga-click="Footer, go to privacy, text:privacy">Privacy</a></li>
         <li><a href="https://github.com/security" data-ga-click="Footer, go to security, text:security">Security</a></li>
